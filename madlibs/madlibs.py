@@ -51,23 +51,3 @@ for i in range(len(totalVerb)):
 editedMadLibsContent = editMadLibs.write(newParagraph)
 madLibsContentFile.close()
 editMadLibs.close()
-
-# findWord = re.compile(r'ADJECTIVE')
-# userInput = input('replace Adjective: ')
-# findWord.sub(userInput, newParagraph)
-# print(newParagraph)
-#
-# #TODO: close madlibs.txt
-
-#TODO: open a new files & write the content to it
-#newMLCF = open('madlibsupdated.txt', 'w')
-#newMLCF.write(madLibsContentFile)
-
-
-# testString = 'NOUN NOUN NOUN NOUN'
-# totalNouns = nounRegex.findall(testString)
-# print(testString)
-# for i in range(len(totalNouns)):
-#     user_noun = input('Noun: ')
-#     testString = nounRegex.sub(user_noun, testString, count=1)
-#     print(testString)
